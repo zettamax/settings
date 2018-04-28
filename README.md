@@ -5,12 +5,16 @@ First of all, clone this repo: `git clone --recurse-submodules git@github.com:ze
 ## CLI 
 
 ### bash 
-To enable *liquidprompt* and add *aliases* execute:
+To enable *liquidprompt* and add *aliases* run:
 ```
-echo -e '\n\n# bash aliases\n[[ $- = *i* ]] && source ~/.my-settings/cli/bash/aliases.sh' >> ~/.bashrc;
-echo -e '\n\n# liquidprompt\n[[ $- = *i* ]] && source ~/.my-settings/cli/bash/liquidprompt/liquidprompt' >> ~/.bashrc;
+echo -e '\n\n# bash aliases\n [[ $- = *i* ]] && source ~/.my-settings/cli/bash/aliases.sh' >> ~/.bashrc;
+echo -e '\n\n# liquidprompt\n [[ $- = *i* ]] && source ~/.my-settings/cli/bash/liquidprompt/liquidprompt' >> ~/.bashrc;
 cp ~/.my-settings/cli/bash/lp-settings.sh ~/.config/liquidpromptrc
 ```
+
+**For macOS** also run following:
+`echo -e '\n\n# macOS hack\n if [ -f ~/.bashrc ]; then \n source ~/.bashrc \n fi' >> ~/.bash_profile;`
+
 ... and restart terminal.
 
 ### iTerm
