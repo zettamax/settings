@@ -1,2 +1,7 @@
-# settings
-Various settings for software I use
+# fast software settings
+
+## CLI 
+
+### bash 
+
+### iTerm
