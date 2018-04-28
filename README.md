@@ -8,7 +8,7 @@ First of all, clone this repo: `git clone --recurse-submodules git@github.com:ze
 To enable *liquidprompt* and add *aliases* execute:
 ```
 echo -e '\n\n# bash aliases\n[[ $- = *i* ]] && source ~/.my-settings/cli/bash/aliases.sh' >> ~/.bashrc;
-echo -e '\n\n# liquidprompt[[ $- = *i* ]] && source ~/.my-settings/cli/bash/liquidprompt/liquidprompt' >> ~/.bashrc;
+echo -e '\n\n# liquidprompt\n[[ $- = *i* ]] && source ~/.my-settings/cli/bash/liquidprompt/liquidprompt' >> ~/.bashrc;
 cp ~/.my-settings/cli/bash/lp-settings.sh ~/.config/liquidpromptrc
 ```
 ... and restart terminal.
