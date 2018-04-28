@@ -3,8 +3,8 @@
 
 if [[ $OSTYPE =~ 'darwin' ]]; then
     alias ll="ls -lahG"
-elif
-	alias ll="ls -lah --color=auto"
+else
+    alias ll="ls -lah --color=auto"
 fi
 
 alias ..="cd .."
