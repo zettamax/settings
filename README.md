@@ -1,6 +1,6 @@
 # fast software settings
 
-First of all, clone this repo: `git clone git@github.com:zettamax/settings.git ~/.my-settings`.
+First of all, clone this repo: `git clone --recurse-submodules git@github.com:zettamax/settings.git ~/.my-settings`.
 
 ## CLI 
 
