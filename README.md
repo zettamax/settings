@@ -5,13 +5,13 @@ First of all, clone this repo: `git clone --recurse-submodules git@github.com:ze
 ## CLI 
 
 ### bash 
-To enable liquidprompt execute:
+To enable *liquidprompt* and add *aliases* execute:
 ```
-echo -e '\n\n[[ $- = *i* ]] && source ~/.my-settings/cli/bash/liquidprompt/liquidprompt' >> ~/.bashrc;
-cp ~/.my-settings/cli/bash/liquidprompt/liquidpromptrc-dist ~/.config/liquidpromptrc
-
+echo -e '\n\n# bash aliases\n[[ $- = *i* ]] && source ~/.my-settings/cli/bash/aliases.sh' >> ~/.bashrc;
+echo -e '\n\n# liquidprompt[[ $- = *i* ]] && source ~/.my-settings/cli/bash/liquidprompt/liquidprompt' >> ~/.bashrc;
+cp ~/.my-settings/cli/bash/lp-settings.sh ~/.config/liquidpromptrc
 ```
-... and restart terminal or: `source ~/.my-settings/cli/bash/liquidprompt/liquidprompt`.
+... and restart terminal.
 
 ### iTerm
 Set settings directory in iTerm: `~/.my-settings/cli/iterm`. Or use URL `https://raw.githubusercontent.com/zettamax/settings/master/cli/iterm/com.googlecode.iterm2.plist`
