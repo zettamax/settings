@@ -13,7 +13,9 @@ cp ~/.my-settings/cli/bash/lp-settings.sh ~/.config/liquidpromptrc
 ```
 
 **For macOS** also run following:
-`echo -e '\n\n# macOS hack\n if [ -f ~/.bashrc ]; then \n source ~/.bashrc \n fi' >> ~/.bash_profile;`
+```
+echo -e '\n\n# macOS hack\n if [ -f ~/.bashrc ]; then \n source ~/.bashrc \n fi' >> ~/.bash_profile;
+```
 
 ... and restart terminal.
 
